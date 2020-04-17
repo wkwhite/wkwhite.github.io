@@ -1,0 +1,87 @@
+body {
+  background: #242729;
+}
+
+h1 {
+  text-align: center;
+  color: #eeeeee;
+  margin: 0;
+  padding: 20px 0;
+  background: #1E4B6E;
+  text-shadow:  0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
+  font-family: Cinzel;
+  font-weight: 700;
+}
+
+#container {
+  max-width: 500px;
+  margin: 30px auto auto auto;
+}
+
+.square {
+  background: rgba(11, 13, 14, 1);
+  width: 22.5%;
+  margin: 1.25%;
+  border: 3px solid #1E4B6E;
+  float: left;
+  display: inline-block;
+  border-radius: 15%;
+}
+
+.square:hover {
+  background: rgba(11, 13, 14, 0.7);
+}
+
+#sammyBar {
+  background: rgba(11, 13, 14, 1);
+  display: block;
+  height: 25px;
+}
+
+img {
+  width: 100%;
+  border-radius: 15%;
+}
+
+.matched {
+  opacity: 0.0;
+  transition: all 0.4s;
+  transition-delay: 0.4s;
+}
+
+.transparent img{
+  opacity: 0.0;
+  transition: all 0.4s;
+  transition-delay: 0.7s;
+}
+
+button {
+  color: #999999;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  letter-spacing: 1px;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  outline: none;
+  margin: auto auto auto 20px;
+}
+
+button:hover {
+  color: white;
+}
+
+#winning img {
+  width: 80%;
+  position:absolute;
+  padding: auto;
+  left: 0px;
+  bottom: 0px;
+  z-index: 2;
+  border-radius: 0;
+}
